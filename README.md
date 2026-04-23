@@ -80,15 +80,25 @@ Gradient directions : min=-π rad, max=+π rad
 ### Figure 1 — Main Comparison
 Shows the original image alongside Gx, Gy, edge magnitude, thresholded edges, and Prewitt operator results.
 
+![Figure 1 – Main Comparison](output_figures/fig1_main_comparison.png)
+
+
 ### Figure 2 — Gradient Vector Field
 Red arrows visualise `∇I` at sampled points — each arrow points perpendicular to the edge contour.
 
+![Figure 2 – Gradient Vector Field](output_figures/fig2_vector_field.png)
+
 ### Figure 3 — Magnitude Heatmap & Direction Map
-- **Left:** Jet heatmap — brighter = stronger edge
-- **Right:** HSV colormap — different hues = different edge orientations
+- **Jet heatmap** — brighter = stronger edge
+- **HSV colormap** — different hues = different edge orientations
+
+![Figure 3 – Magnitude Heatmap & Direction Map](output_figures/fig3_magnitude_direction.png)
 
 ### Figure 4 — Threshold Sensitivity Analysis
 Shows how edge pixel count changes with different threshold values.
+
+ 
+![Figure 4 – Threshold Sensitivity Analysis](output_figures/fig4_threshold_analysis.png)
 
 ---
 
